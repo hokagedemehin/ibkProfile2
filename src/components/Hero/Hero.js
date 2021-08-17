@@ -1,8 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
-import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import {
+  Section,
+  SectionText,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import Button from "../../styles/GlobalComponents/Button";
+import { LeftSection } from "./HeroStyles";
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -12,9 +16,18 @@ const Hero = (props) => (
         Demehin Ibukun
       </SectionTitle>
       <SectionText>
-        I'm a Software Developer with a strong knack for providing online solutions for small and medium size companies, by developing web applications across e-commerce, logistics and food services
+        I’m a Frontend Developer and a firm believer in the mobile-first
+        approach with a passion for software architecture, responsive web
+        applications designs, and cloud computing.
       </SectionText>
-      <Button onClick={() => window.location = 'https://wa.me/2348036051411'}>Contact Me</Button>
+      <Button
+        onClick={() =>
+          (window.location =
+            "https://drive.google.com/file/d/1l3-zTnxuhq-oDL_OAun6GA-iyu4HwjQE/view?usp=sharing")
+        }
+      >
+        Download CV
+      </Button>
     </LeftSection>
   </Section>
 );
