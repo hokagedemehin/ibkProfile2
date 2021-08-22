@@ -16,6 +16,7 @@ const Home = () => {
       <Section grid>
         <Hero />
       </Section>
+      <Projects />
       <Technologies />
       <Experience />
       <ZuriPage />

@@ -31,6 +31,11 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
+        <Link href="#projects">
+          <NavLink>Projects</NavLink>
+        </Link>
+      </li>
+      <li>
         <Link href="#tech">
           <NavLink>Technologies</NavLink>
         </Link>
@@ -40,11 +45,11 @@ const Header = () => (
           <NavLink>Experience</NavLink>
         </Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="#zuri">
           <NavLink>Join</NavLink>
         </Link>
-      </li>
+      </li> */}
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/hokagedemehin">
